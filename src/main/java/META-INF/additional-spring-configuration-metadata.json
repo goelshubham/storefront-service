@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "management.endpoint.env.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.env.enabled'"
+  },
+  {
+    "name": "management.endpoint.health",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.health'"
+  }
+]}

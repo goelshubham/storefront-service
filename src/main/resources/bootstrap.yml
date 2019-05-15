@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+     uri: http://localhost:8001
+     failFast: true
+     name: storefront-service
+---
+spring:
+  profiles: dev
+---
+spring:
+  profiles:
+    active: dev
+management:
+  endpoint:
+    env:
+      enabled: true 
+    info:
+      enabled: true
+    threaddump:
+      enabled: true
+    refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: env, bus-refresh
+
+
+
+      
+       
+       
